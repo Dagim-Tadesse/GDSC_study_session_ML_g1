@@ -10,7 +10,7 @@ model.fit(x, y)
 
 
 pred = model.predict([[6]])
-print("predcited value of study", pred[0])
+print("predicted value of study: ", pred[0])
 
 plt.scatter(x, y, color="blue")
 plt.xlabel("study time")
